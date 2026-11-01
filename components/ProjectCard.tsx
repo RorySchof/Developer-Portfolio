@@ -153,24 +153,19 @@ function ProjectLinks({
   if (links.length === 0) return null;
 
   return (
-    <div className={className}>
-      <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-3">
-        {links.map((link) => (
-          <SiteLink
-            key={link.label}
-            href={link.href}
-            variant={link.variant}
-            ariaLabel={projectLinkLabel(projectName, link.label)}
-          >
-            {link.label}
-          </SiteLink>
-        ))}
-      </div>
-      {projectName === "Roof Inspector" ? (
-        <p className="mt-1.5 text-xs leading-4 text-muted">
-          First load may take up to 60 seconds while the prototype starts.
-        </p>
-      ) : null}
+    <div
+      className={`mt-6 flex flex-wrap items-center gap-x-6 gap-y-3 ${className}`}
+    >
+      {links.map((link) => (
+        <SiteLink
+          key={link.label}
+          href={link.href}
+          variant={link.variant}
+          ariaLabel={projectLinkLabel(projectName, link.label)}
+        >
+          {link.label}
+        </SiteLink>
+      ))}
     </div>
   );
 }

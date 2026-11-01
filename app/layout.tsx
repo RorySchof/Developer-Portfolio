@@ -15,12 +15,18 @@ const newsreader = Newsreader({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(site.url),
   title: site.title,
   description: site.description,
   authors: [{ name: site.name }],
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: site.title,
     description: site.description,
+    url: site.url,
+    siteName: site.name,
     type: "website",
     locale: "en_US",
   },

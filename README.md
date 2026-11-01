@@ -2,13 +2,13 @@
 
 Personal site for Rory Schofield, a full-stack developer working across web, mobile, SaaS, and AI products.
 
-**Live site:** [dev-portfolio-eight-sigma.vercel.app](https://dev-portfolio-eight-sigma.vercel.app)
+**Live site:** [roryschofield.com](https://roryschofield.com)
 
 ## Selected work
 
 - [ClientTempo](https://www.clienttempo.com/) — AI toolkit for real-estate agents. [Source](https://github.com/RorySchof/ClientTempo)
 - [Sorin Study](https://apps.apple.com/us/app/sorin-study/id6772776460) — iOS study app built with React Native and Expo. [Source](https://github.com/RorySchof/SorinHabit)
-- [Roof Inspector](https://roof-inspector.onrender.com/) — computer-vision prototype for reviewing roof images. The first load can take up to a minute while the service starts. [Source](https://github.com/RorySchof/roof-inspector)
+- [Roof Inspector](https://roof-inspector-five.vercel.app/) — computer-vision prototype that screens a roof photo for potential repair needs. It is a screening demo, not a professional inspection. [Source](https://github.com/RorySchof/roof-inspector)
 
 ## Stack
 

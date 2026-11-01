@@ -13,6 +13,7 @@
 
 export const site = {
   name: "Rory Schofield",
+  url: "https://roryschofield.com",
   role: "Full-Stack Developer · Web · Mobile · SaaS · AI",
   email: "roryschofield@gmail.com",
   title: "Rory Schofield — Full-Stack Developer · Web · Mobile · SaaS · AI",
@@ -151,7 +152,7 @@ export const projects: Project[] = [
     ],
     primaryLink: {
       label: "Try Roof Inspector",
-      href: "https://roof-inspector.onrender.com/",
+      href: "https://roof-inspector-five.vercel.app/",
     },
     secondaryLinks: [
       { label: "GitHub", href: "https://github.com/RorySchof/roof-inspector" },
