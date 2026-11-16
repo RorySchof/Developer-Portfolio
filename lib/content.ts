@@ -130,7 +130,7 @@ export const projects: Project[] = [
       href: "https://apps.apple.com/us/app/sorin-study/id6772776460",
     },
     secondaryLinks: [
-      { label: "GitHub", href: "https://github.com/RorySchof/SorinHabit" },
+      { label: "GitHub", href: "https://github.com/RorySchof/sorin-study" },
     ],
     image: {
       src: "/work/sorin-home.png",
